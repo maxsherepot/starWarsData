@@ -1,0 +1,15 @@
+.RandomFilm img {
+    max-width: 180px;
+}
+
+
+@media screen and (max-width: 460px) {
+    .RandomFilm {
+        flex-direction: column;
+    }
+    
+    .RandomFilm img {
+        max-width: 160px;
+        align-self: center;
+    }
+};

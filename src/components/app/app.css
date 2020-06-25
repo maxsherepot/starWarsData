@@ -1,0 +1,20 @@
+body {
+    background-image: url("./bg-image.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    color:rgb(195, 196, 197);
+}
+
+li {
+    list-style-type: none;
+} 
+
+.bgColor {
+    background-color : #000000ce;
+}
+
+
+
+ 

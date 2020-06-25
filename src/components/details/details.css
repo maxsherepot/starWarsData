@@ -1,0 +1,15 @@
+.PlanetDetails .img-fluid, .PersonDetails .img-fluid, .SpeciesDetails .img-fluid {
+    max-width: 240px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .PlanetDetails,.PersonDetails, .SpeciesDetails {
+    flex-direction: column;
+    }
+
+    .PlanetDetails .img-fluid, .PersonDetails .img-fluid, .SpeciesDetails .img-fluid {
+        max-width: 200px;
+        align-self: center;
+    };
+}
